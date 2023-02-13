@@ -7,18 +7,18 @@ I worked with SQL and PowerBi, the SQL scripts were moved to the Power Bi app fo
 
 ### The SQL script to clean the data gotten from hotels, addition of columns, creation of temporaray tables
 
---select * from dbo.[2018w]
---Union
---select * from dbo.[2019]
---union
---select * from dbo.[2020]
----- The union function is used to append tables together
+*-- select * from dbo.[2018w]
+*-- Union
+*-- select * from dbo.[2019]
+*-- union
+*-- select * from dbo.[2020]
+*---- The union function is used to append tables together
 
-with hoteldeluna as (
-select * from dbo.[2018w]
-Union
-select * from dbo.[2019]
-union
+* with hoteldeluna as (
+* select * from dbo.[2018w]
+* Union
+* select * from dbo.[2019]
+* union
 select * from dbo.[2020])
 
 select *  from hoteldeluna
