@@ -5,7 +5,7 @@ The first file descibes the details of a hotel, the revenue gotten, notable incr
 I worked with SQL and PowerBi, the SQL scripts were moved to the Power Bi app for visualization of the data
 
 
-#### The SQL script to clean the data gotten from hotels, addition of columns, creation of temporaray tables
+### The SQL script to clean the data gotten from hotels, addition of columns, creation of temporaray tables
 
 --select * from dbo.[2018w]
 --Union
